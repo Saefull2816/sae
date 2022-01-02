@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>sudah saatnya</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("makasih wis jawab GELEM mulai saiki kita resmi pacaran, aku wes sayang karo ko")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> sebelum ko jawab pertanyaan nang ngingsor, wis ngerti kan maksude, ngko urusan kena apa orane nyg karo ko tek takokna disit, intine nyg wis mulai sayang karo ko <h1>
+<img alt="EvilicaCell" src="https://drive.google.com/file/d/1XNN4LieSfwZYy_44QEPLbW00oJMGGiPM/view?usp=drivesdk" height="200" />
+<h1 style="#">gelem ra dadi pacare aku?</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" GELEM " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" ORA " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
